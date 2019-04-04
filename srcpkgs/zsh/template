@@ -23,7 +23,7 @@ license="MIT, GPL-3.0-or-later"
 homepage="http://www.zsh.org"
 distfiles="http://www.zsh.org/pub/zsh-${version}.tar.xz"
 checksum=7260292c2c1d483b2d50febfa5055176bd512b32a8833b116177bf5f01e77ee8
-register_shell="/bin/zsh"
+register_shell="/sbin/zsh"
 lib32disabled=yes
 
 pre_configure() {
